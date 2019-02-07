@@ -6,11 +6,12 @@
 
 html {
   box-sizing: border-box;
-  font-family: "Open Sans", sans-serif;
+
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  font-family: "Open Sans", sans-serif;
 }
 
 *, *::before, *::after {
@@ -20,4 +21,8 @@ html {
 .img-flex {
   display: block;
   width: 100%;
+}
+
+body {
+  margin: 0;
 }
